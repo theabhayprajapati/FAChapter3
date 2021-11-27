@@ -1,3 +1,5 @@
+import 'package:chapter2flutter/card2.dart';
+import 'package:chapter2flutter/card3.dart';
 import 'package:chapter2flutter/casd1.dart';
 import 'package:flutter/material.dart';
 
@@ -16,9 +18,8 @@ class _HomeState extends State<Home> {
 // 8
   static List pages = [
     const Card1(),
-    // TODO: Replace with Card2
-    Container(color: Colors.green),
-    // TODO: Replace with Card3
+    const Card2(),
+    Card3(),
     Container(color: Colors.blue)
   ];
 
